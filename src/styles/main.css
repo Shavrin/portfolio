@@ -15,21 +15,40 @@ body {
 
 .grid-container {
   display: grid;
+  grid-gap: 1em;
 }
 
 .projects-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
 }
 
-@media screen and (max-width: 600px) {
+@media only screen and (min-width: 480px) {
   .projects-grid {
     grid-template-columns: 1fr;
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .projects-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 .project {
   background-color: pink;
   border: 1px double red;
   text-align: center;
+}
+
+.avatar {
+  border: 5px dotted black;
+  border-radius: 50%;
+  justify-self: center;
+  height: 10em;
+  width: 10em;
 }
