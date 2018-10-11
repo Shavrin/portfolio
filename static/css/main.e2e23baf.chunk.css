@@ -1,2 +1,0 @@
-body{font-family:Rubik;background-color:#00beff;padding:0;margin:0}.title{color:#ff4000;text-align:center;text-shadow:2px 2px #000;background-color:#00ffbf;width:auto}.grid-container{display:grid;grid-gap:1em}.projects-grid{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:1em}@media screen and (max-width:200px){.projects-grid{grid-template-columns:1fr}}.project{background-color:pink;border:1px double red;text-align:center}.avatar{border:5px dotted #000;border-radius:50%;justify-self:center;height:10em;width:10em}
-/*# sourceMappingURL=main.e2e23baf.chunk.css.map */
