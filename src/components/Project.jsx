@@ -1,13 +1,16 @@
 import React from "react";
 
 const Project = props => {
-  const { title, description } = props;
+  const { title, image, githubLink, youtubeLink, children } = props;
 
   return (
-    <div className="project">
-      <p>{title}</p>
-      <p>{description}</p>
-    </div>
+    <article className="project">
+      <img src={image} alt="Preview" className="preview" />
+      <p className="projectTitle">{title}</p>
+      <p>{children}</p>
+      <a href={githubLink} />
+      <a href={youtubeLink} />
+    </article>
   );
 };
 
