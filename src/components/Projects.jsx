@@ -1,43 +1,14 @@
 import React from "react";
-
+import Project from "../components/Project";
 const Projects = () => {
   return (
     <div className="projects-grid">
-      <div>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
-        excepturi eligendi laudantium! Debitis labore accusantium molestias
-        perspiciatis laudantium deleniti fuga.
-      </div>
-
-      <div>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
-        excepturi eligendi laudantium! Debitis labore accusantium molestias
-        perspiciatis laudantium deleniti fuga.
-      </div>
-
-      <div>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
-        excepturi eligendi laudantium! Debitis labore accusantium molestias
-        perspiciatis laudantium deleniti fuga.
-      </div>
-
-      <div>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
-        excepturi eligendi laudantium! Debitis labore accusantium molestias
-        perspiciatis laudantium deleniti fuga.
-      </div>
-
-      <div>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
-        excepturi eligendi laudantium! Debitis labore accusantium molestias
-        perspiciatis laudantium deleniti fuga.
-      </div>
-
-      <div>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
-        excepturi eligendi laudantium! Debitis labore accusantium molestias
-        perspiciatis laudantium deleniti fuga.
-      </div>
+      <Project title="Websites" description="Description" />
+      <Project title="Websites" description="Description" />
+      <Project title="Websites" description="Description" />
+      <Project title="Websites" description="Description" />
+      <Project title="Websites" description="Description" />
+      <Project title="Websites" description="Description" />
     </div>
   );
 };

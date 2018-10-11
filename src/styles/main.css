@@ -1,11 +1,16 @@
 body {
   font-family: Rubik;
   background-color: #00beff;
+  padding: 0;
+  margin: 0;
 }
 
 .title {
   color: #ff4000;
   text-align: center;
+  text-shadow: 2px 2px black;
+  background-color: #00ffbf;
+  width: auto;
 }
 
 .grid-container {
@@ -21,4 +26,10 @@ body {
   .projects-grid {
     grid-template-columns: 1fr;
   }
+}
+
+.project {
+  background-color: pink;
+  border: 1px double red;
+  text-align: center;
 }
