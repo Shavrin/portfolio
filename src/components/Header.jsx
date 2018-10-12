@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header>
       <Avatar />
-      <h1 className="headerTitle">Kacper Olek's Portfolio</h1>
+      <h1 className="headerTitle page">Kacper Olek's Portfolio</h1>
     </header>
   );
 };
