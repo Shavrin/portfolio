@@ -2,9 +2,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: Rubik;
+  /*mozilla scroll snapping*/
   scroll-snap-points-y: repeat(100%);
   scroll-snap-type: mandatory;
   scroll-snap-destination: 100% 0%;
+  scroll-snap-type: y mandatory;
 }
 
 header {
@@ -14,7 +16,6 @@ header {
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  scroll-snap-align: start none;
 }
 .headerTitle {
   text-align: center;
