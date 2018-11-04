@@ -47,3 +47,27 @@ header {
 .page {
   scroll-snap-align: none start;
 }
+
+.sidebar {
+  width: 80px;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+  display: table;
+}
+.sidebar ul {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0;
+}
+.sidebar li {
+  width: 100%;
+}
+
+.sidebar img {
+  padding: 15px;
+  fill: green;
+  background-color: white;
+}
